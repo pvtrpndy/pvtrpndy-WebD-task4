@@ -78,42 +78,20 @@ a {
     justify-content: space-around;
 }
 
-/* #display:hover #card{
-    filter: blur(2px);
-}    */
-
-
-
-#intro{
-    min-height: 750px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-#intro h4{
-    padding-top: 70px;
-    font-size: 40px;
-}
-#position{
-    padding: 40px;
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-#intro p{
-    margin-left: 60px;
-    margin-right: 60px;
-    font-size: 30px;
-}
-#intro img{
-    height: 360px;
-}
-
 h1{
     font-family: 'Harry Potter', sans-serif;
     margin-top: 30px;
     text-align: center;
     font-size: 70px;                                            
+}
+
+.nav-bar #search{
+    margin-top: 10px;
+    height: 30px;
+}
+
+.nav-bar button:hover{
+    border-color: gray;
+    border-radius: 10px;
+    /* background-color: gray; */
 }
