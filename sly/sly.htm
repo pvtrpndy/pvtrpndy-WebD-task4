@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href= "sly.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="https://pvtrpndy.github.io/webd-task4/index.htm">Home</a> 
+        <a href="https://pvtrpndy.github.io/webd-task4/gryf/griff.htm">Gryffindor</a> 
+        <a href="https://pvtrpndy.github.io/webd-task4/sly/sly.htm">Slytherin</a> 
+        <a href="https://pvtrpndy.github.io/webd-task4/hp/hp.htm">Hufflepuff</a>
+        <a href="https://pvtrpndy.github.io/webd-task4/rc/rc.htm">Ravenclaw</a>
+        <input type="text" id = "search" placeholder="search for the character">
+        <button id = "go">Go</button>
+    </div>
+    <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer" id = "intro">
+      
+        
+        <div class="absolute top-0 left-0 px-6 py-4">
+        <div id = "position">
+          <h4 class="mb-3 text-xl font-semibold tracking-tight text-black">
+              <i>
+                "Or perhaps in Slytherin,<br>
+                You'll make your real friends,<br>
+                Those cunning folk use any means,<br>
+                To achieve their ends."
+              </h4>
+            <img src = "https://www.redwolf.in/image/cache/catalog/stickers/harry-potter-slytherin-crest-sticker-india-700x700.jpg">
+        </div>
+          <p class="leading-normal text-black-100">Slytherin was one of the four Houses at Hogwarts School of Witchcraft and Wizardry, founded by Salazar Slytherin. In establishing the house, Salazar instructed the Sorting Hat to pick students who had a few particular characteristics he most valued. Those characteristics included cunning, resourcefulness, leadership, and ambition. </p>
+        </div>
+      </div>
+      <h1>Some Prominent Slytherin House Characters</h1>
+      <div id="display"></div>
+      <script src="sly.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href= "rc.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <a href="https://pvtrpndy.github.io/webd-task4/index.htm">Home</a> 
+        <a href="https://pvtrpndy.github.io/webd-task4/gryf/griff.htm">Gryffindor</a> 
+        <a href="https://pvtrpndy.github.io/webd-task4/sly/sly.htm">Slytherin</a> 
+        <a href="https://pvtrpndy.github.io/webd-task4/hp/hp.htm">Hufflepuff</a>
+        <a href="https://pvtrpndy.github.io/webd-task4/rc/rc.htm">Ravenclaw</a>
+        <input type="text" id = "search" placeholder="search for the character">
+        <button id = "go">Go</button>
+    </div>
+    <div class="relative overflow-hidden rounded-lg shadow-lg cursor-pointer" id = "intro">
+        
+        
+        <div class="absolute top-0 left-0 px-6 py-4">
+        <div id = "position">
+          <h4 class="mb-3 text-xl font-semibold tracking-tight text-black">
+              <i>
+                "Or yet in wise old Ravenclaw,<br>
+                If you've a ready mind,<br>
+                Where those of wit and learning,<br>
+                Will always find their kind."
+            </h4></i>
+            <br>
+            <img src = "https://i.pinimg.com/originals/f5/b9/02/f5b902b26576787e83fb48acd8169838.jpg">
+        </div>
+          <p class="leading-normal text-black-100">Ravenclaw was one of the four Houses of Hogwarts School of Witchcraft and Wizardry. Its founder was the medieval witch Rowena Ravenclaw. Members of this house were characterised by their wit, learning, and wisdom. The emblematic animal symbol was an eagle, and blue and bronze were its colours</p>
+        </div>
+      </div>
+      <h1>Some Prominent Ravenclaw House Characters</h1>
+      <div id="display"></div>
+      <script src="rc.js"></script>
+</body>
+</html>
